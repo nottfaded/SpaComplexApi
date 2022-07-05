@@ -1,6 +1,10 @@
 # SpaComplex
 
+## Для проекта
 
+Для БД ипользовался -> SQL Server
+Для backend -> ASP.NET
+Для frontend -> React.js
 
 ## Getting started
 
