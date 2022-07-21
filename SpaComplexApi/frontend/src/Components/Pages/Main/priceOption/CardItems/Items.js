@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 
 export default function Items({ items, info_style, circle_style, addToOrder }) {
     return (

@@ -1,5 +1,4 @@
 import React from "react";
-import { Adults } from "./priceOption";
 
 export default function Categories({ categories, chooseCategory }) {
   return (

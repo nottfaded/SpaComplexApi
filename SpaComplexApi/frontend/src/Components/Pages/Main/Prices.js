@@ -1,13 +1,12 @@
-import React, { useEffect, useState } from 'react'
-import Categories from './priceOption/Categories.jsx'
+import React, { useState } from 'react'
 import {
     Adults, Children,
-    Students, Specials, Cards
+    Students, Specials
 } from './priceOption/priceOption.jsx'
 
 export var Prices_y;
 
-export default function Prices({ data, subscription, addToOrder }) {
+export default function Prices({ data, addToOrder }) {
     const [value, setValue] = useState();
     const [activeValue, setActiveValue] = useState([
         {

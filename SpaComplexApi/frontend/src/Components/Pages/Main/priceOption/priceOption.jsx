@@ -1,6 +1,4 @@
 import React from "react";
-import { useEffect } from "react";
-import Items from "./CardItems/Items";
 
 const circle_style = {
   backgroundColor: "#DA730B",
@@ -11,22 +9,22 @@ const info_style = {
 };
 
 // массив
-export const Cards = ({ currentCards, addToOrder }) => {
-  return (
-    <div className="container mt-4 mb-5">
-      <Items
-        items={currentCards}
-        addToOrder={addToOrder}
-        circle_style={circle_style}
-        info_style={info_style}
-      />
-    </div>
-  );
-};
+// export const Cards = ({ currentCards, addToOrder }) => {
+//   return (
+//     <div className="container mt-4 mb-5">
+//       <Items
+//         items={currentCards}
+//         addToOrder={addToOrder}
+//         circle_style={circle_style}
+//         info_style={info_style}
+//       />
+//     </div>
+//   );
+// };
 
 // массив в массиве
 
-export const Adults = ({ data, currentCards, addToOrder, subscription }) => {
+export const Adults = ({ data, addToOrder }) => {
   return (
     <div className="container mt-4 mb-5">
       {/* <Items items={currentCards} num={0} addToOrder={addToOrder} /> */}
@@ -156,7 +154,7 @@ export const Adults = ({ data, currentCards, addToOrder, subscription }) => {
   );
 };
 
-export const Children = ({ data, currentCards, addToOrder }) => {
+export const Children = ({ data, addToOrder }) => {
   return (
     <div className="container mt-4 mb-5">
       {/* <Items items={currentCards} num={1} addToOrder={addToOrder} /> */}
@@ -286,7 +284,7 @@ export const Children = ({ data, currentCards, addToOrder }) => {
   );
 };
 
-export const Students = ({ data, currentCards, addToOrder }) => {
+export const Students = ({ data, addToOrder }) => {
   return (
     <div className="container mt-4 mb-5">
       {/* <Items items={currentCards} num={2} addToOrder={addToOrder} /> */}
@@ -416,7 +414,7 @@ export const Students = ({ data, currentCards, addToOrder }) => {
   );
 };
 
-export const Specials = ({ data, currentCards, addToOrder }) => {
+export const Specials = ({ data, addToOrder }) => {
   return (
     <div className="container mt-4 mb-5">
       {/* <Items
