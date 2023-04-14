@@ -1,6 +1,6 @@
 # SpaComplex
 
-**Для БД** использовался -> SQL Server 
+**Для БД** використовувався -> SQL Server 
 
 **Для backend** -> ASP.NET
 
